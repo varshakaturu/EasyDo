@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EasyDo</title>
+
+	<link rel="stylesheet" href="to.css" />
+</head>
+<body>
+	<nav>
+		<a href="home.html">
+		  <img src="l.png" class="logo" />
+		</a>
+    </nav>
+    <header>
+		<center><h1 style="font-family:Winterlady;font-size:230%;"><b>EasyDo</b></bTASK></h1></center>
+		<h1 style="font-family:Segoe Print">List your Tasks!</h1>
+        <form id="new-task-form">
+			<input
+				type="text"
+				name="new-task-input"
+				id="new-task-input"
+				placeholder="Add a task.." />
+			<input
+				type="date"
+				name="task-date"
+				id="task-date"
+				placeholder="Select date" />
+		
+			<input
+				type="submit"
+				id="new-task-submit"
+				value="✓" />
+		</form>
+    </header>
+	<main>
+		<section class="task-list">
+			<h1 style="font-family:Papyrus"><b><span>Your Tasks</span></b></h1>
+
+			<div id="tasks">
+                <!-- <div class="task">
+					<div class="content">
+						<input
+							type="checkbox"
+							name="checkTask"
+							id="checktask">
+						<input
+							type="text"
+							class="text"
+							value="A new task"
+							readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> -->
+
+			</div>
+		</section>
+	</main>
+    <script src="todo.js"></script>
+</body>
+</html>

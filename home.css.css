@@ -1,0 +1,109 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    flex-direction: column;
+    background-image:url("kd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+        width: 100px;
+        border-radius: 100px;
+        float: left;
+        margin-right: 100x;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#542c02;
+    font-size: 17px;
+}
+nav .logo{
+    width: 50px;
+}
+.content h1{
+    font-size: 80px;
+    color:#795237;
+    font-weight:50;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.content h2{
+    font-size: 28px;
+    color:#795237;
+    font-weight:500;
+}
+.content h1:hover{
+    -webkit-text-stroke: 3px #542c02;
+    color:transparent;
+}
+.content p{
+    font-size: 28px;
+    color:#795237;
+    font-weight:500;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color:#795237;
+    font-size: 24px;
+    border: 3px solid #795237;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
+    
