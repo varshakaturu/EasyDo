@@ -3,7 +3,7 @@
 
 ![Screenshot 2023-12-02 131404](https://github.com/varshakaturu/EasyDo-Frontend-Project/assets/155888774/66463b30-d9e5-41fc-927a-f88b9d5b8e40)
 ![Screenshot 2023-12-02 131419](https://github.com/varshakaturu/EasyDo-Frontend-Project/assets/155888774/c36e245c-4668-474d-9e97-4612f272f666)
-![Screenshot 2023-12-02 131533](https://github.com/varshakaturu/EasyDo-Frontend-Project/assets/155888774/64cd9453-f625-45b7-a77f-37649191d6f4) *(Optional: Add a relevant banner image)*
+![Screenshot 2023-12-02 131533](https://github.com/varshakaturu/EasyDo-Frontend-Project/assets/155888774/64cd9453-f625-45b7-a77f-37649191d6f4) 
 
 **EasyDo** is a simple and efficient task management platform designed to help users stay organized and productive. Whether you need to track daily tasks, set reminders, or collaborate on projects, EasyDo makes it effortless.
 
@@ -17,7 +17,7 @@
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
 - **Version Control:** Git & GitHub
-- **Deployment:** GitHub Pages (or any other preferred hosting service)
+
 
 ## 📂 Project Structure
 ```plaintext
@@ -35,7 +35,7 @@ EasyDo/
 Ensure you have the following installed:
 - A modern web browser
 - A code editor (VS Code, Sublime, etc.)
-- Git (optional, for version control)
+- Git (optional,for version control)
 
 ### 🔹 Installation
 1. **Clone the Repository:**
@@ -74,8 +74,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🎯 Connect with Me
 For any queries or suggestions, feel free to reach out!
 - **GitHub:** [@varshakaturu](https://github.com/varshakaturu)
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- **Email:** your-email@example.com *(Replace with actual email)*
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/varshakaturu)
+- **Email:** varshakaturu@gmail.com
 
 ---
 
